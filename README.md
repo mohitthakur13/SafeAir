@@ -71,7 +71,8 @@ The 'alert_type', representing the type of alert, is categorized into the follow
  <li> out_of_lower_bound - below the operational range of the index set by the user </li>
   <li> in_operational_range - Within the operational range of the index set by the user </li>
   <li> out_of_upper_bound - above the operational range of the index set by the user </li>
- <ol>
+ </ol>
+ 
  
 Note that the pollutant_analytics gives a list of "out of bound" pollutants. This implies that if an index is out of bound, looking at the "out of bound" pollutants will tell which pollutant(s) is causing the index to go out of bound.
 
