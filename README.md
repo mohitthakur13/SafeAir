@@ -31,12 +31,15 @@
 The only requirement is Python 3+ and a few packages within.
 
  ## How to use
- 1. Choose how to get the readings from the SafeAir decvice:
-    1.1 If directly from API - then configure that by uncommenting the code in main.py
-    1.2 Default - read past data from device_data
- 2. Run main.py
- 3. Once the program is runs successfully, check for the output in a file output.output.data
- 
+<ol>
+<li>Choose how to get the readings from the SafeAir decvice:
+<ol>
+<li>If directly from API - then configure that by uncommenting the code in main.py </li>
+<li>Default - read past data from device_data </li> </ol>
+ </li>
+ <li> Run main.py </li>
+ <ol> Once the program is runs successfully, check for the output in a file output.output.data </li>
+ </ol>
  ## What needs to be added before production
  
  ## Further suggestions
