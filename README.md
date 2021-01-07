@@ -54,12 +54,20 @@ The only requirement is Python 3+ and a few packages within.
    </li>
   </ol>
   </li>
+ <li>Testing (MUST): The data analytics platform must be tested well with the rest of the app before deploying in production.</li>
  </ol>
  
  
  
  ## Further suggestions
- 
+ <ol>
+ <li>
+  Concurrency: No parallel programming have been used. Although since the code is modular the first approach should be to simply run (either using multithreading or asyncio) to run index engines concurrently. Then more advanced approaches could be used for paralleizing over multiple processors if need be.
+  </li>
+ <li>
+  Predictive Engine: As the groundwork for the basic data analytics has been laid, other predictive and recommendation services could be built on top.
+ </li>
+ </ol>
  
  
  
