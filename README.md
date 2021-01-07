@@ -4,7 +4,7 @@
  - [Description](#description)
  - [Requirements](#requirements)
  - [How to use](#how-to-use)
- - [What needs to be added before production](#needs-to-be-added)
+ - [What could and must be added before production](#needs-to-be-added)
  - [Further suggestions](#further-suggestions)
  
  ---
@@ -43,7 +43,20 @@ The only requirement is Python 3+ and a few packages within.
  
  
  
- ## What needs to be added before production
+ ## What could and must be added before production
+ <ol>
+ <li>Offsets (OPTIONAL): Threshold limit in time after which an alert is issued, meant to cater to accidental jumps in the readings dues to device issues etc. </li>
+ <li>
+  User index setting reconfiguration (MUST).
+  <ol> 
+   <li>
+    A threshold based approach is proposed in the google documents that advices to define threshold in amount (number of alerts) and in time (duration) to suggest the user for a re-configuration of operational index ranges. This is not necessarily part of the core data analytics and could also be done somewhere else within the app.
+   </li>
+  </ol>
+  </li>
+ </ol>
+ 
+ 
  
  ## Further suggestions
  
