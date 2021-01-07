@@ -6,7 +6,7 @@
  - [How to use](#how-to-use)
  - [What could and must be added before production](#needs-to-be-added)
  - [Further suggestions](#further-suggestions)
- 
+ - [Documentation](#documentation)
  ---
  
  ## Description
@@ -92,6 +92,10 @@ Note that the pollutant_analytics gives a list of "out of bound" pollutants. Thi
   Predictive Engine: As the groundwork for the basic data analytics has been laid, other predictive and recommendation services could be built on top.
  </li>
  </ol>
+ 
+ 
+ ## Documentation
+ Please find the project related documentation in the SafeAir_Docs folder. The files should be imported first to the google drive for reading and editing.
  
  
  
