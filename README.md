@@ -37,6 +37,7 @@ The only requirement is Python 3+ and a few packages within.
  
 <img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/input_reading.png?raw=true' width=600, height=400>
 
+### Output
 The output 'data_analytics' is divided into two categories:
 <ol>
  <li>
@@ -51,6 +52,9 @@ The output 'data_analytics' is divided into two categories:
   </li>
  </ol>
  
+ 
+ 
+Note that the pollutant_analytics gives a list of "out of bound" pollutants. This implies that if an index is out of bound, looking at the "out of bound" pollutants will tell which pollutant(s) is causing the index to go out of bound.
 <ol>
 <li>Choose how to get the readings from the SafeAir decvice:
 <ol>
