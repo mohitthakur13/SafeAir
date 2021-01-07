@@ -43,9 +43,35 @@ The output 'data_analytics' is divided into two categories:
 
 <img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/pollutant_analytics.png' width='600'>
 
+The pollutant 'quality' parameter belongs to one of 4 categories: 
+<ol>
+ <li> out_of_lower_bound - which is ignored</li>
+  <li> out_of_upper_bound - which takes the max value from the pollutant ranges (See tech docs.)</li>
+  <li> good</li>
+ <li> moderate</li>
+ <li> unhealthy</li>
+ <li> hazardous</li>
+ <li> out_of_upper_bound - which takes the max value from the pollutant ranges (See tech docs.)</li>
+ </ol>
+
+'Validity' parameter categorizes the pollutant value into the following
+<ol>
+ <li> (good, moderate, unhealthy, hazardous) --> VALID</li>
+  <li> out_of_lower_bound --> INVALID but is ignored</li>
+ <li> out_of_upper_bound --> INVALID but max value is taken</li>
+ </ol>
+
+
 2. index_analytics 
 
 <img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/index_analytics.png' width=600>
+
+The 'alert_type', representing the type of alert, is categorized into the following:
+<ol>
+ <li> out_of_lower_bound - below the operational range of the index set by the user </li>
+  <li> in_operational_range - Within the operational range of the index set by the user </li>
+  <li> out_of_upper_bound - above the operational range of the index set by the user </li>
+ <ol>
  
 Note that the pollutant_analytics gives a list of "out of bound" pollutants. This implies that if an index is out of bound, looking at the "out of bound" pollutants will tell which pollutant(s) is causing the index to go out of bound.
 
@@ -66,10 +92,13 @@ Note that the pollutant_analytics gives a list of "out of bound" pollutants. Thi
  <ol>
  <li>Offsets (OPTIONAL): Threshold limit in time after which an alert is issued, meant to cater to accidental jumps in the readings dues to device issues etc. </li>
  <li>
+  Alert messages for the user (MUST): The alert analytics parameter 'alert_type' must be mapped to a user understandable and actionable message.
+  </li>
+ <li>
   User index setting reconfiguration (MUST).
   <ol> 
    <li>
-    A threshold based approach is proposed in the google documents that advices to define threshold in amount (number of alerts) and in time (duration) to suggest the user for a re-configuration of operational index ranges. This is not necessarily part of the core data analytics and could also be done somewhere else within the app.
+    A threshold based approach is proposed in the google documents that advices to define threshold in amount (number of alerts) and in time (duration) to suggest the user for a re-configuration of operational index ranges. This is not necessarily part of the core data analytics and could also be done separately within the app.
    </li>
   </ol>
   </li>
