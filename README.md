@@ -62,8 +62,6 @@ The pollutant 'quality' parameter belongs to one of 4 categories:
  </ol>
 </li>
 
-Note that the pollutant_analytics gives a list of "out of bound" pollutants. This implies that if an index is out of bound, looking at the "out of bound" pollutants will tell which pollutant(s) is causing the index to go out of bound.
-
 
 <li> index_analytics 
 <img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/index_analytics.png' width=600>
@@ -75,7 +73,11 @@ The 'alert_type', representing the type of alert, is categorized into the follow
   <li> out_of_upper_bound - above the operational range of the index set by the user </li>
  </ol>
  </ol>
- 
+
+
+Note that the pollutant_analytics gives a list of "out of bound" pollutants. This implies that if an index is out of bound, looking at the "out of bound" pollutants will tell which pollutant(s) is causing the index to go out of bound.
+
+
 
 #### How to use:
 <ol>
