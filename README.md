@@ -114,7 +114,7 @@ Note that the pollutant_analytics gives a list of "out of bound" pollutants. Thi
  ## Further suggestions
  <ol>
  <li>
-  Concurrency: No parallel programming have been used. Although since the code is modular the first approach should be to simply run (either using multithreading or asyncio) to run index engines concurrently. Then more advanced approaches could be used for paralleizing over multiple processors if need be.
+  Concurrency: No parallel programming have been used. Although, the code is modular and the first approach should be to simply extend with (either using multithreading or asyncio) to run index engines concurrently. Later, more advanced approaches could be used for paralleizing over multiple processors if need be.
   </li>
  <li>
   Predictive Engine: As the groundwork for the basic data analytics has been laid, other predictive and recommendation services could be built on top.
