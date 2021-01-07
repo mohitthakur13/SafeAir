@@ -31,6 +31,26 @@
 The only requirement is Python 3+ and a few packages within.
 
  ## How to use
+ 
+ ### Input
+ Expected input:
+ 
+<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/input_reading.png?raw=true' width=600, height=400>
+
+The output 'data_analytics' is divided into two categories:
+<ol>
+ <li>
+  pollutant_analytics 
+
+<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/pollutant_analytics.png'>
+  </li>
+   <li>
+  index_analytics 
+
+<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/index_analytics.png'>
+  </li>
+ </ol>
+ 
 <ol>
 <li>Choose how to get the readings from the SafeAir decvice:
 <ol>
