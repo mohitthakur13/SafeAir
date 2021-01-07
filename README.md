@@ -38,8 +38,11 @@ The only requirement is Python 3+ and a few packages within.
 <li>Default - read past data from device_data </li> </ol>
  </li>
  <li> Run main.py </li>
- <ol> Once the program is runs successfully, check for the output in a file output.output.data </li>
+ <li> Once the program is runs successfully, check for the output in a file output.output.data </li>
  </ol>
+ 
+ 
+ 
  ## What needs to be added before production
  
  ## Further suggestions
