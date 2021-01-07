@@ -34,7 +34,7 @@ The only requirement is Python 3+ and a few packages within.
  
  ### Input
  Expected input:
- ![alt text](https://github.com/mohitthakur13/SafeAir/edit/master/readme_images/input_reading.png?raw=true)
+ ![alt text](https://github.com/mohitthakur13/blob/master/readme_images/input_reading.png?raw=true)
  
 <ol>
 <li>Choose how to get the readings from the SafeAir decvice:
