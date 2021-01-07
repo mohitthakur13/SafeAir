@@ -47,8 +47,7 @@ The output 'data_analytics' is divided into two categories:
 The pollutant 'quality' parameter belongs to one of 4 categories: 
 <ol>
  <li> out_of_lower_bound - which is ignored</li>
-  <li> out_of_upper_bound - which takes the max value from the pollutant ranges (See tech docs.)</li>
-  <li> good</li>
+ <li> good</li>
  <li> moderate</li>
  <li> unhealthy</li>
  <li> hazardous</li>
@@ -63,8 +62,8 @@ The pollutant 'quality' parameter belongs to one of 4 categories:
  </ol>
 </li>
 
-<li> index_analytics 
 
+<li> index_analytics 
 <img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/index_analytics.png' width=600>
 
 The 'alert_type', representing the type of alert, is categorized into the following:
