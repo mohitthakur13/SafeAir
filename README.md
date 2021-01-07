@@ -39,22 +39,17 @@ The only requirement is Python 3+ and a few packages within.
 
 ### Output
 The output 'data_analytics' is divided into two categories:
-<ol>
- <li>
-  pollutant_analytics 
+1. pollutant_analytics 
 
-<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/pollutant_analytics.png'>
-  </li>
-   <li>
-  index_analytics 
+<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/pollutant_analytics.png' width='600'>
 
-<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/index_analytics.png'>
-  </li>
- </ol>
- 
- 
+2. index_analytics 
+
+<img src='https://github.com/mohitthakur13/SafeAir/blob/master/readme_images/index_analytics.png' width=600>
  
 Note that the pollutant_analytics gives a list of "out of bound" pollutants. This implies that if an index is out of bound, looking at the "out of bound" pollutants will tell which pollutant(s) is causing the index to go out of bound.
+
+#### How to use:
 <ol>
 <li>Choose how to get the readings from the SafeAir decvice:
 <ol>
