@@ -19,11 +19,14 @@
 <li>The pollutant analytics engine computes the pollutant analytics and sends it to the consolidator (analytics_consolidator.py). </li>
 <li> Index engines compute the value of the indices and sends it to the alert engine (index_analytics/analytics.py - which is a classifier of the index values). </li> 
  <li> The alert engine uses user_settings.py to read the index operational ranges set by the user. </li>
-</li>
+</li> 
+  </ol>
 <li> The alert engine appends the index value and the alert analytics for the index and sends it to the consolidator. </li>
 <li> The consolidator then collects the pollutant analytics and the index analytics and appends to the reading and sends it to the output writer. </li>
 <li> The output writer outputs the analytics into the JSON format in the file output/output.data </li>
  </ol>
+ 
+ 
  ## Requirements
  
  ## How to use
